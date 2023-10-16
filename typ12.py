@@ -1,4 +1,4 @@
-#Eventos de mouse y teclado de tkinter
+#   *****   Eventos de mouse y teclado de tkinter *****
 
 #Importaciones
 from tkinter import *
@@ -20,7 +20,6 @@ entrada.bind("<Button-1>", lambda e: entrada.delete(0, END))
 #aplicar un lambda para que cuando se haga clic recién lo borre y no a penas se ejecuta la app.
 #entrada.bind("<Key>", lambda e: entrada.delete(0, END)) --> cuando hago clic y despues presiono cualquier
 #tecla se borra todo en donde ingresaría el texto. Pero me borra todo mientras voy escribiendo.
-
 
 entrada.pack()
 

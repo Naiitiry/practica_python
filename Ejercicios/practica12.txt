@@ -1,0 +1,6 @@
+1. Crea 4 botones. Colócolas en grid o en pack uno encima de otro. Misma columna.
+
+2. C/botón, muestre 1 etiqueta (Label) con un mensaje como "se ha pulsado el primer boton".
+    Apareceran individualmente al pulsar el botón.
+
+3. Esquema de un grid, mediante el cual debo desarrollar la siguiente aplicación:
