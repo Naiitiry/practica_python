@@ -3,7 +3,7 @@ from tkinter import *
 #ventana principal
 root = Tk()
 #Titulo de programa
-root.title = "Práctica con Tkinter"
+root.title("Práctica con Tkinter")
 #función de botón
 def crear_etiqueta(numero_boton):
     etiqueta = Label(root,text=f'Botón {numero_boton} pulsado.')

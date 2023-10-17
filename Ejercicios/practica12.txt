@@ -4,3 +4,11 @@
     Apareceran individualmente al pulsar el botón.
 
 3. Esquema de un grid, mediante el cual debo desarrollar la siguiente aplicación:
+
+    I- DEberá permitir al usuario poner su nombre y edad con 2 Entry(). 1 para c/cosa.
+
+    II- En color gris, la columna 0, las filas 0 y 1 hay 2 Entry(). Los Entry quedaran sin valor por defecto, 
+        vacíos.
+    III- Al pulsar el botón, se debe cargar en la columna 1, fila 3, una etiqueta con una frase como:
+        "Mi nombre es 'x' y tengo 'x' años". Reemplazar 'x' de la frase por el nombre y la edad introducidos
+        en el Entry.
