@@ -1,0 +1,24 @@
+I - Copiar el siguiente código:
+    import os
+    ruta = os.path.dirname(__file__)
+
+II - A partir del siguiente código, añade un icono a la ventana.
+    #Importaciones
+    from tkinter import *
+
+    #Creación de la ventana principal
+    root = Tk()
+    #Título de la ventana
+    root.title("www.programacionfacil.org")
+    #Icono de la ventana
+
+    #Bucle de ejecución
+    root.mainloop()
+
+III - Añade cuatro imágenes a tu carpeta de imágenes. 
+    Déjalas en resolución grande. Carga en grid las cuatro imágenes. 
+    Debes redimensionarlas desde el código a 400px (ancho), el alto te 
+    lo dejo libre para que las imágenes de diferentes resoluciones no te queden deformadas. 
+    Intenta que el resultado final, sea como este. Las cuatro imágenes perfectamente alineadas entre sí.
+    (https://programacionfacil.org/blog/ejercicios-de-python-y-tkinter-creacion-de-un-login/)
+    
