@@ -1,0 +1,30 @@
+I - Usar JOIN para concatenar la lista.
+    frase = ["Estoy","aprendiendo","Python","con","el","curso","de","100","dias","de","programacion","facil."]
+
+II - Itera esta lista de colores y preséntala en la consola 
+    con el método format(), 
+    una lista como esta, utilizando las constantes. 
+    Además, los colores tendrán la primera letra en mayúscula.
+    colores = ["rojo", "azul", "verde", "amarillo"]
+    GUION = "-"
+    PUNTO = "." 
+
+III - A partir de estas variables, saca con un solo print() 
+    y utilizando el operador de concatenación % una frase 
+    exactamente igual que la del resultado:
+    numero_1 = 10
+    numero_2 = 34.50
+    resultado = numero_1 * numero_2
+
+    print()
+
+IV - Con el siguiente código, crea un sistema que sepa contar 
+    las coincidencias de una letra introducida en la consola. 
+    PISTAS: hay que iterar los caracteres del string y crear 
+    un incremento en el contador solo cuando coincida con la letra buscada. 
+    Además, que sepas que un condicional no te vendrá mal.
+
+V - Este último ejercicio es para quienes ya supieran utilizar 
+    el formateo de strings con %. 
+    Saca los valores de los dos float del ejercicio 3, 
+    directamente en el print() con solo tres decimales.
