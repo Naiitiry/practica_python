@@ -50,7 +50,7 @@ edad = Label(root,text="Edad:").grid(row=1,column=0)
 def evento_boton():
     nombre = entrada1.get()
     edad = entrada2.get()
-    Label(root,text=f'Mi nombre es {nombre} y tengo {edad} años.').grid(row=3)
+    Label(root,text=f'Mi nombre es {nombre} y tengo {edad} años.').grid(row=3,column=1)
 
 #botón
 Button(root,text="Botón",command= lambda: evento_boton()).grid(row=2,column=1)
