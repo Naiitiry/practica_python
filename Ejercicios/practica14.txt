@@ -1,0 +1,61 @@
+url: https://programacionfacil.org/blog/ejercicios-de-python-y-tkinter-creacion-de-un-login/
+
+1. Copia y pega estas líneas en un archivo .py ¿Sabrías decirme que ruta está almacenando esta variable?
+    import os
+
+    ruta = os.path.dirname(__file__)
+
+2. A partir del siguiente código, añade un icono a la ventana.
+    #Importaciones
+    from tkinter import *
+
+    #Creación de la ventana principal
+    root = Tk()
+    #Título de la ventana
+    root.title("www.programacionfacil.org")
+    #Icono de la ventana
+
+    #Bucle de ejecución
+    root.mainloop()
+
+3. Añade cuatro imágenes a tu carpeta de imágenes. 
+    Déjalas en resolución grande. Carga en grid las cuatro imágenes. 
+    Debes redimensionarlas desde el código a 400px (ancho), el alto te lo dejo libre 
+    para que las imágenes de diferentes resoluciones no te queden deformadas. 
+    Intenta que el resultado final, sea como este. 
+    Las cuatro imágenes perfectamente alineadas entre sí.
+
+    Recuerda que deberás importar esto:
+    from PIL import ImageTk, Image
+    Requisito opcional: almacena los nombres de las 4 
+    imágenes en una lista y utilízala para las rutas.
+
+4. Proyecto - Ventana de login simulado para la tienda de motocicletas.
+    Por cierto, el tema del proyecto no hace falta que sean las motocicletas, 
+    puedes hacer este proyecto sobre lo que quieras.
+
+    Si sigues el curso con todos sus capítulos, 
+    recordarás del día 11 la tienda de motocicletas. 
+    Para este proyecto, nos han pedido crear un programa de gestión para la tienda. 
+    Puesto que aún falta mucho para llegar a este punto en el curso, 
+    empecemos creando en este proyecto una ventana de login (inicio de sesión) simulada. 
+    Aún no va a funcionar, ni es un proyecto final, pero empezaremos con el diseño gráfico 
+    y con una pequeña lógica simulada. Busca alguna imagen que esté relacionada 
+    con la tienda de motocicletas 
+    (o con cualquier otro tema que hayas elegido). El proyecto tiene los siguientes requisitos:
+
+5. Icono personalizado
+
+6. Título de ventana con el nombre de la tienda (inventa el que quieras).
+
+7. Una imagen con el logo de la tienda (deberá estar con un tamaño de máximo 300px de ancho. 
+    El alto es libre para que lo ajustes y se vea la imagen sin deformar).
+
+8. Dos etiquetas que pongan, "Usuario" y "Contraseña".
+
+9. Dos entradas de texto correspondientes a estas etiquetas.
+
+10. Las entradas de texto deben tener en su interior estos mensajes por defecto: 
+    "Ej:Laura" en el de usuario y la contraseña llevará "*******" 7 asteriscos.
+
+11. Botón de enviar.

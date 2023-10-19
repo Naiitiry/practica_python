@@ -3,7 +3,7 @@
 from tkinter import *
 import os
 #descargar módulo Pillow, ya que no viene con Python - pip install Pillow
-from PIL import ImageTk,ImageColor,Image
+from PIL import ImageTk,Image
 #-----Carga de directorio-----
 #       Directorio/carpeta principal
 carpeta_raiz = os.path.dirname(__file__)
@@ -25,7 +25,7 @@ root.iconbitmap(os.path.join(carpeta_imagenes,"favicon.ico"))
 
 #Carga de imagen
 #el método "resize" es de "Image", por lo tanto va después del segundo paréntesis y usa una tupla como coordenadas (X,Y)
-bosque = ImageTk.PhotoImage(Image.open(os.path.join(carpeta_paisajes,"bosque.jpg")).resize((350,200)))
+bosque = ImageTk.PhotoImage(Image.open(os.path.join(carpeta_paisajes,"bosque.jpg")).resize((800,600)))
 #Mostramos la imagen
 etiqueta = Label(image=bosque)
 #La acomodamos
