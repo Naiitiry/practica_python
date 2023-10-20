@@ -1,0 +1,49 @@
+            Radiobuttons y Variables de Control
+
+1.- Crea cuatro Radiobutton con el texto que quieras en cada uno de ellos. 
+    Colócalos en grid(). Solo ocuparán dos filas. No habrá opción por defecto seleccionada.
+
+
+2.- Añade una carpeta al proyecto con cuatro imágenes. 
+    Estas tendrán que mostrarse encima de cada Radiobutton con un tamaño de 200px de ancho. 
+    El alto, como siempre, te lo dejo libre para que redimensiones correctamente. 
+    Intenta utilizar imágenes con la misma proporción para que quede una cosa bien hecha 
+    y no imágenes con diferentes tamaños.
+
+
+3.- Pon un color de fondo con los colores de Tkinter para cada Radiobutton. 
+    Este color debe ser el dominante en cada imagen. 
+    Por ejemplo, en la imagen de Emma, el lila o morado es el color dominante. 
+    En Jacob el verde, en Noah el azul y en Sophia el rojo o rosa.
+
+
+4.- Esta vez, que todo el contenido esté con unos márgenes. 
+    Ajústalos como mejor te queden. Recuerda que puedes emplear los marcos 
+    para agrupar cosas y no tener que poner márgenes individuales a cada elemento. 
+    Pon también unos márgenes dentro del marco.
+
+
+5.- Pon un color de fondo para la ventana y para el marco. 
+    Para realizar cambios en la ventana principal, acuérdate que existe 
+    el método configure() que realiza cambios en la configuración de esta. 
+    Tanto el color de la ventana y marco, son de libre elección, de requisito solo 
+    te pido que sea el mismo. También quiero que quites el borde del marco, 
+    que sea transparente o inexistente.
+
+
+                            Ejercicios Opcionales
+
+
+Pasamos a la parte opcional. Estos ejercicios son algo más complicados, de modo que puede que no consigas resolverlos. No obstante, te animo a que lo intentes y si no puedes, que aprendas de la solución.
+
+6.- Quiero que añadas un botón. Al pulsarlo, con una opción Radiobutton marcada, 
+    se le entregará en una etiqueta un mensaje como este: "Hola Sophia. Accediendo a tu 
+    cuenta personal...". Si no se selecciona ninguna opción, le deberá avisar 
+    con una etiqueta en rojo (ya sea su fondo o las letras) que debe seleccionar una opción. 
+    Te recomiendo utilizar una variable de control StringVar() para que los valores sean los 
+    nombres de las opciones, así podrás sacar el valor de la opción en la frase "Hola Noah...".
+
+
+7.- Crea un botón a tu gusto en una imagen .png. Ya sea con Photoshop, por internet, con un 
+    generador de botones o con cualquier imagen que pueda servirte de botón. 
+    La idea para este ejercicio, es que cargues una imagen en el botón de envío.
