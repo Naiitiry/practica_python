@@ -1,0 +1,19 @@
+EJERCICIOS SOBRE MARCOS Y ESTILOS
+url : https://programacionfacil.org/blog/ejercicios-de-python-y-tkinter/
+
+1.- Crea un marco con un ancho (width) de 300px y un alto (height) de 300px. 
+    Al establecer estos atributos, el marco se mostrará aunque esté vacío. 
+    Además, escríbele un texto cualquiera.
+    
+2.- Añade unos márgenes de 25px de ancho y 10px de alto al marco frente a la ventana.
+
+3.- Borra el marco anterior. Empezamos de cero. 
+    Crea dos marcos vacíos con un ancho (width) de 200px y un alto (height) de 400px. 
+    Deberán aparecer uno al lado del otro (uno a la izquierda y otro a la derecha en la misma fila). 
+    No les pongas atributo text. Ponles un color de fondo diferente a cada uno.
+
+4.- Si te fijas, aunque no hemos utilizado el atributo para poner un borde, 
+    los marcos no están perfectamente juntos, tienen un pequeño borde. ¿Cómo harías para quitarlo?.
+
+5.- ¿Sabrías representar esta cuadrícula con marcos? Los colores son libres (elige 2) 
+    y el tamaño de los marcos también. Eso sí, deben seguir este patrón estilo ajedrez.
