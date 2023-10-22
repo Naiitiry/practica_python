@@ -41,6 +41,10 @@ Radiobutton(marco,text="Australia",variable=opcion,background="dark slate blue",
 Radiobutton(marco,text="España",variable=opcion,background="coral2",value=3).grid(row=3,column=0)
 Radiobutton(marco,text="Estonia",variable=opcion,background="RoyalBlue1",value=4).grid(row=3,column=1)
 
+# ---------------- Ejercicio opcional ----------------
+# Botón
+boton = Button
+
 
 
 root.mainloop()
