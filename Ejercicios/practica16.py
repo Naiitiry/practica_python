@@ -14,6 +14,10 @@ root.configure(background="SlateGray2")
 marco = LabelFrame(root,text="Marco de las imagenes",padx=10,pady=10,background="NavajoWhite2",border=0)
 marco.pack(padx=15,pady=15)
 
+# ------------- Función del botón -------------
+def boton_selecccion():
+    pass
+
 # Asignamos las imagenes en variables
 # -------------- Argentina --------------
 argentina = ImageTk.PhotoImage(Image.open(os.path.join(carpeta_imagenes,"argentina.png")).resize((200,100)))
