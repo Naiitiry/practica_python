@@ -6,6 +6,8 @@ import os
 carpeta_raiz = os.path.dirname(__file__)
 # Buscamos la carpeta de imagenes
 carpeta_imagenes = os.path.join(carpeta_raiz,"imagen16")
+# Carpeta de botón
+boton_imagen = os.path.join(carpeta_imagenes,"boton")
 # ------- Inicio de Program -------
 root=Tk()
 root.title("Ejercicios de Variables de control y Radiobuttons")
@@ -13,10 +15,6 @@ root.configure(background="SlateGray2")
 # ------------- MARCO -------------
 marco = LabelFrame(root,text="Marco de las imagenes",padx=10,pady=10,background="NavajoWhite2",border=0)
 marco.pack(padx=15,pady=15)
-
-# ------------- Función del botón -------------
-def boton_selecccion():
-    pass
 
 # Asignamos las imagenes en variables
 # -------------- Argentina --------------
@@ -36,18 +34,37 @@ estonia = ImageTk.PhotoImage(Image.open(os.path.join(carpeta_imagenes,"estonia.p
 bandera4 = Label(marco,image=estonia)
 bandera4.grid(row=2,column=1)
 # Variable de Control
-opcion = IntVar()
+opcion = StringVar()
+opcion.set("Error")
 
 # Radiobuttons
 
-Radiobutton(marco,text="Argentina",variable=opcion,background="dark turquoise",value=1).grid(row=1,column=0)
-Radiobutton(marco,text="Australia",variable=opcion,background="dark slate blue",value=2).grid(row=1,column=1)
-Radiobutton(marco,text="España",variable=opcion,background="coral2",value=3).grid(row=3,column=0)
-Radiobutton(marco,text="Estonia",variable=opcion,background="RoyalBlue1",value=4).grid(row=3,column=1)
+Radiobutton(marco,text="Argentina",variable=opcion,background="dark turquoise",value="Argentina").grid(row=1,column=0)
+Radiobutton(marco,text="Australia",variable=opcion,background="dark slate blue",value="Australia").grid(row=1,column=1)
+Radiobutton(marco,text="España",variable=opcion,background="coral2",value="España").grid(row=3,column=0)
+Radiobutton(marco,text="Estonia",variable=opcion,background="RoyalBlue1",value="Estonia").grid(row=3,column=1)
 
 # ---------------- Ejercicio opcional ----------------
+# Imagen del boton
+boton_entrar = ImageTk.PhotoImage(Image.open(os.path.join
+                (boton_imagen,"button.png")))
+# ------------- Función del botón -------------
+def boton_selecccion():
+    if opcion.get()=="Error":
+        Label(root,
+        text=f'No has seleccionado ninguna cuenta, por favor, elige una',
+        background="gray98",
+        foreground="red2").pack()
+    else:
+        Label(root,
+        text=f'Hola {opcion.get()}. Accediendo a tu cuenta personal...',
+        background="gray98").pack()
+        print(opcion.get())
 # Botón
-boton = Button
+boton = Button(root,
+        text="Entrar",
+        image=boton_entrar,
+        command=boton_selecccion).pack(pady=10)
 
 
 
