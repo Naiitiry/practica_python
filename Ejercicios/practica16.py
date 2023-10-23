@@ -19,19 +19,19 @@ marco.pack(padx=15,pady=15)
 # Asignamos las imagenes en variables
 # -------------- Argentina --------------
 argentina = ImageTk.PhotoImage(Image.open(os.path.join(carpeta_imagenes,"argentina.png")).resize((200,100)))
-bandera1 = Label(marco,image=argentina)
+bandera1 = Label(marco,image=argentina,background="NavajoWhite2")
 bandera1.grid(row=0,column=0)
 # -------------- Australia --------------
 australia = ImageTk.PhotoImage(Image.open(os.path.join(carpeta_imagenes,"australia.png")).resize((200,100)))
-bandera2 = Label(marco,image=australia)
+bandera2 = Label(marco,image=australia,background="NavajoWhite2")
 bandera2.grid(row=0,column=1)
 # -------------- España --------------
 españa = ImageTk.PhotoImage(Image.open(os.path.join(carpeta_imagenes,"espana.png")).resize((200,100)))
-bandera3 = Label(marco,image=españa)
+bandera3 = Label(marco,image=españa,background="NavajoWhite2")
 bandera3.grid(row=2,column=0)
 # -------------- Estonia --------------
 estonia = ImageTk.PhotoImage(Image.open(os.path.join(carpeta_imagenes,"estonia.png")).resize((200,100)))
-bandera4 = Label(marco,image=estonia)
+bandera4 = Label(marco,image=estonia,background="NavajoWhite2")
 bandera4.grid(row=2,column=1)
 # Variable de Control
 opcion = StringVar()
@@ -64,7 +64,9 @@ def boton_selecccion():
 boton = Button(root,
         text="Entrar",
         image=boton_entrar,
-        command=boton_selecccion).pack(pady=10)
+        border=0,
+        command=boton_selecccion,
+        background="NavajoWhite2").pack(pady=10)
 
 
 
