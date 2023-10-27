@@ -1,0 +1,2 @@
+Se debe crear una aplicación con Tkinter y random en un juego de adivinanza de numeros.
+Debemos poner un máximo de intentos e informar si está cerca de adivinar o no al número.
