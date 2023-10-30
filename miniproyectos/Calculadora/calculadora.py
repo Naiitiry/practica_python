@@ -45,19 +45,19 @@ while True:
     match eleccion:
         case 1:
             resultado = suma.suma(num1, num2)
-            print(f"El resultado de sumar {num1} + {num2} es: {resultado}.")
+            print(f"El resultado de sumar {num1} + {num2} es: {resultado}.\n")
         case 2:
             resultado = round(resta.resta(num1, num2), 2)
-            print(f"El resultado de restar {num1} - {num2} es: {resultado}.")
+            print(f"El resultado de restar {num1} - {num2} es: {resultado}.\n")
         case 3:
             resultado = round(multiplicacion.multiplicacion(num1, num2), 2)
-            print(f"El resultado de multiplicar {num1} por {num2} es: {resultado}.")
+            print(f"El resultado de multiplicar {num1} por {num2} es: {resultado}.\n")
         case 4:
             resultado = round(division.division(num1, num2), 2)
-            print(f"El resultado de dividir {num1} entre {num2} es: {resultado}.")
+            print(f"El resultado de dividir {num1} entre {num2} es: {resultado}.\n")
         case 5:
             resultado = round(modulo.modulo(num1, num2), 2)
-            print(f"El resto de la división de {num1} entre {num2} es: {resultado}.")
+            print(f"El resto de la división de {num1} entre {num2} es: {resultado}.\n")
         case 6:
             resultado = round(exponente.exponente(num1, num2), 2)
-            print(f"{num1} elevado a {num2} es: {resultado}.")
+            print(f"{num1} elevado a {num2} es: {resultado}.\n")
