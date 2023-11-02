@@ -68,7 +68,7 @@ boton8.grid(row=4,column=1)
 boton9 = Button(root,text="9",relief="flat",background="DarkOrange2",width=4,height=2,font=("Copperplate Gothic Bold", 24),command=lambda: mostrar(9))
 boton9.grid(row=4,column=2)
 
-botonac = Button(root,text="AC",relief="flat",background="DarkOrange2",width=4,height=2,font=("Copperplate Gothic Bold", 24),command=lambda: borrar)
+botonac = Button(root,text="AC",relief="flat",background="DarkOrange2",width=4,height=2,font=("Copperplate Gothic Bold", 24),command=lambda: borrar())
 botonac.grid(row=5,column=0)
 
 boton0 = Button(root,text="0",cursor="hand2",relief="flat",background="magenta3",width=4,height=2,font=("Copperplate Gothic Bold", 24),command=lambda: mostrar(0))
